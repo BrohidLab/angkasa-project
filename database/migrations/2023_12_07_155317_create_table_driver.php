@@ -15,13 +15,11 @@ return new class extends Migration
             $table->id();
             $table->string('no_angkot');
             $table->string('nama_lengkap');
-            $table->string('phone');
-            $table->string('alamat');
             $table->string('username');
             $table->string('password');
-            $table->string('foto');
-            $table->string('foto_sim');
-            $table->string('foto_stnk');
+            $table->string('no_polisi');
+            $table->string('pekerjaan');
+            $table->string('trayek');
             $table->timestamps();
         });
     }

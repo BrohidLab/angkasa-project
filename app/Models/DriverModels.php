@@ -13,12 +13,10 @@ class DriverModels extends Model
     protected $fillable = [
       'no_angkot',
       'nama_lengkap',
-      'phone',
-      'alamat',
-      'foto',
+      'pekerjaan',
+      'no_polisi',
       'username',
       'password',
-      'foto_sim',
-      'foto_stnk'
+      'trayek'
     ];
 }

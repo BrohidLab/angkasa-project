@@ -27,6 +27,7 @@ Route::post('/register', [LoginCobtroller::class, 'register']);
 
 //api event
 Route::get('/event', [EventController::class, 'index']);
+Route::post('/event', [EventController::class, 'create']);
 //api digitalfinance
 Route::get('/digital-finance', [DigitalFinanceController::class, 'index']);
 Route::get('/salatiga-today', [SalatigaTodayController::class, 'index']);

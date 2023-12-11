@@ -10,5 +10,5 @@ class EventModels extends Model
     use HasFactory;
     
     protected $table = 'table_event';
-    protected $fillable = ['title','description','image','start_date','end_date'];
+    protected $fillable = ['title','description','image'];
 }
