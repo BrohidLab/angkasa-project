@@ -35,6 +35,7 @@ Route::get('/digital-finance', [DigitalFinanceController::class, 'index']);
 Route::post('digital-finance', [DigitalFinanceController::class, 'create']);
 //api salatiga today
 Route::get('/salatiga-today', [SalatigaTodayController::class, 'index']);
+Route::post('/salatiga-today', [SalatigaTodayController::class, 'create']);
 
 //api trayek
 Route::get('/trayek', [TrayekController::class, 'index']);
