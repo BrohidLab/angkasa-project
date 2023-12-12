@@ -18,8 +18,8 @@ class EventController extends Controller
       $event = new EventModels();
       $fillname = '';
     if($request->hasFile('image')){
-        $filePath = Storage::disk('public')->put('images/', request()->file('image'));
-            $fillname = $filePath;
+        $filePath = Storage::disk('public')->put('images', request()->file('image'));
+            $fillname = "storage/app/public/$filePath";
       }else{
         $fillname=null;
       }
